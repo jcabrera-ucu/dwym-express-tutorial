@@ -6,7 +6,6 @@ const setEditModal = (isbn) => {
     xhttp.send();
 
     const book = JSON.parse(xhttp.responseText);
-    console.log("BOOK", book)
 
     const {
         title,
